@@ -37,6 +37,10 @@ dependencies {
     compile "org.codehaus.groovy:groovy:2.1.6"
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
+
+    //elastic search
+    compile('org.springframework.data:spring-data-elasticsearch:1.0.0.M1')
+    
     testCompile("junit:junit:4.11")
 }
 
