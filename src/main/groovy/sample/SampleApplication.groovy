@@ -19,6 +19,7 @@ package sample
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 import org.springframework.context.annotation.Bean
+import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate
@@ -32,6 +33,7 @@ import static org.elasticsearch.node.NodeBuilder.nodeBuilder
 @EnableAutoConfiguration
 @RestController
 @EnableElasticsearchRepositories(basePackages = "sample.repository")
+@ComponentScan
 class SampleApplication {
 
 	@Bean

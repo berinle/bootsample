@@ -40,6 +40,9 @@ dependencies {
 
     //elastic search
     compile('org.springframework.data:spring-data-elasticsearch:1.0.0.M1')
+
+    //mongo
+    compile('org.springframework.data:spring-data-mongodb:1.4.0.RC1')
     
     testCompile("junit:junit:4.11")
 }
@@ -63,5 +66,5 @@ build.mustRunAfter clean
 task stage(dependsOn: ['clean', 'build', 'copyToLib'])
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.11'
+    gradleVersion = '1.10'
 }
