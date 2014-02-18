@@ -1,1 +1,7 @@
 data/
+.gradle/
+.idea/
+*.iml
+*.ipr
+build/
+classes/

@@ -1,4 +1,4 @@
-# Spring Boot Actuator Sample
+# Spring Boot Actuator Sample [![Build Status](https://travis-ci.org/berinle/bootsample.png?branch=master)](https://travis-ci.org/berinle/bootsample)
 
 You have just created a simple Spring Boot project in Groovy incorporating the
 Actuator. This includes everything you need to run the application. In this
